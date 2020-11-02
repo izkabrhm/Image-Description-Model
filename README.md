@@ -11,7 +11,7 @@ The Image Description model in this project consists of a Convolutional Neural N
   * nlg-eval (Automatic Evaluation Metric Software)
   * Tweepy
   
-For the implementation of the Image Description model using multimodal space embedding, we consider the work done by [Mao et al](https://arxiv.org/pdf/1411.4555.pdf). The Image Description model consists mainly; a CNN pre-trained on the ImageNet database and multimodal RNN (LSTM). Although the implementation is inspired by the work of Mao et al, it has variations in areas like the layers of the multimodal RNN, the loss function used, and the optimizers applied.
+For the implementation of the Image Description model using multimodal space embedding, we consider the work done by [Mao et al](https://arxiv.org/pdf/1412.6632.pdf). The Image Description model consists mainly; a CNN pre-trained on the ImageNet database and multimodal RNN (LSTM). Although the implementation is inspired by the work of Mao et al, it has variations in areas like the layers of the multimodal RNN, the loss function used, and the optimizers applied.
 
 To test the performance of the Image Description model, 4 architectures of CNN are used. These CNNs are the DenseNet, VggNet, ResNet, and InceptionV3 (GoogleNet). Each CNN architecture has a different number and arrangement of convolution and pooling layers with each architecture giving an image feature vector of different dimensions.
 
