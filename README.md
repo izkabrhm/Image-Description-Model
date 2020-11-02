@@ -1,0 +1,2 @@
+# Image-Description-Model
+The Image Description model in this project consists of a Convolutional Neural Network (CNN) and Long Short-Term Memory (LSTM) network where the outputs from each neural network are aligned in a multimodal space embedding to generate sentence descriptions from a given image. The model is trained using multiple open-source image data sets and images from RTA Twitter handle. The performance of the model will be assessed using automatic evaluation metrics based on n-grams similarity, recall rate, and word order.
